@@ -9,7 +9,7 @@ _start:
   mov x8, #64
   svc #1
 
-  mov x0, #0
+  eor x0, x0, x0
   mov x8, #93
   svc #1
 
